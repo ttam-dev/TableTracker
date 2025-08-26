@@ -1,0 +1,30 @@
+{
+  "name": "tracker-test",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Test": {
+        "$path": "test"
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "TableTracker": {
+        "$path": "src"
+      }
+    },
+    "TestService": {
+      "$className": "TestService",
+      "$properties": {
+        "ExecuteWithStudioRun": true
+      },
+      "TestEZ": {
+        "$path": "TestEZ"
+      },
+      "run": {
+        "$path": "runTests.server.luau"
+      }
+    }
+  }
+}
